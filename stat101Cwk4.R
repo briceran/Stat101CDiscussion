@@ -1,10 +1,23 @@
 # Stat101C Week 4
 # Brice Randolph
 # UCLA Statistics
+# Data visualization 
+
+names<-c("Noam Chomsky","David Mumford","Judea Pearl","Terence Tao","?")
+responses<-c("Good question, but I don’t know of any study of the matter","Thanks for this.  The style -- bits of theory, bits of algorithms all related to fairly simple problems -- seems like it ought to be replicated in other areas of applied math.",
+             "Hi Brice,
+              Yes, I remember you enjoying the rooster -- glad  you are having
+              fun in TA-ship.","Glad you enjoyed the notes!","Can I call you now?")
+
+# what's the \n about? Look up new line character
+
+names
+responses
+
+
 
 x<-seq(0,200)
 # Transformations and complex numbers
-read.csv(na.strings = )
 
 
 floor((x-min(x))/range(x)*screenWidth)
@@ -13,7 +26,7 @@ floor((x-min(x))/range(x)*screenWidth)
 # write pseudocode that would generate a square at
 # point (x,y)
 
-sys
+
 
 # write a function that takes as an argument a complex
 # number Z.  Here, Z should be an object with two 
@@ -43,7 +56,9 @@ sys
 
 
 # Data generating process ## DGP
-# Compilation of common speech patterns of Lebowski
+
+
+# Compilation of common Lebowski speech
 words<-rep("Man",4)
 words<-c(words,rep("Relax, man",30),rep("theDude",7),rep("dude",54))
 words<-c(words,rep("White-Russian",8),"It was an expensive 
